@@ -34,7 +34,7 @@ function Titulo(props) {
 
 export default function PaginaInicial() {
   // const username = 'omariosouto';
-  const [username, setUsername] = React.useState('omariosouto');
+  const [username, setUsername] = React.useState('jadersds');
   const roteamento = useRouter();
 
   return (
@@ -42,8 +42,8 @@ export default function PaginaInicial() {
       <Box
         styleSheet={{
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          backgroundColor: appConfig.theme.colors.primary[500],
-          backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+          //backgroundColor: appConfig.theme.colors.primary[500],
+          backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/i-turn-coffee-into-code-plaque.jpg)',
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
         }}
       >
